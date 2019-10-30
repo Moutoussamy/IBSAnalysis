@@ -88,8 +88,7 @@ def compute_distance(pdb,Cut_off):
 if __name__ == "__main__":
 
 
-	args = GetArgs()
-
+	args = GetArgs() # get arguments
 	basic,acidic = compute_distance(args.i,args.d)
 	print("\n%s #Basic = %i and #acidic = %i \n"%(args.i,basic,acidic))
 
