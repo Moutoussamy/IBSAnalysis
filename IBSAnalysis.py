@@ -105,6 +105,7 @@ def PrintAA(basicAA,acidicAA):
 	for acidic in acidicAA:
 		print(acidic.replace("_",""))
 
+	print("\n")
 
 if __name__ == "__main__":
 
